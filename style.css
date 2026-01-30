@@ -30,7 +30,7 @@ body.dark-mode {
 
 /* Card Container */
 .card {
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(255, 255, 255, 1);
     border-radius: 30px;
     padding: 50px 40px;
     width: 100%;
@@ -40,7 +40,7 @@ body.dark-mode {
 }
 
 body.dark-mode .card {
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(0, 0, 0, 0.85);
 }
 
 /* Theme Toggle Button */
@@ -99,14 +99,14 @@ body.dark-mode .theme-toggle::before {
 }
 
 .social-handle p {
-    color: #fff;
+    color: #000;
     font-size: 1.1em;
     font-weight: 500;
     margin: 0;
 }
 
 body.dark-mode .social-handle p {
-    color: #000;
+    color: #fff;
 }
 
 /* Section */
@@ -119,7 +119,7 @@ body.dark-mode .social-handle p {
 }
 
 .section-title {
-    color: #fff;
+    color: #000;
     font-size: 0.95em;
     font-weight: 600;
     text-align: center;
@@ -129,19 +129,19 @@ body.dark-mode .social-handle p {
 }
 
 body.dark-mode .section-title {
-    color: #000;
+    color: #fff;
 }
 
 /* Action Buttons */
 .action-btn {
     width: 100%;
     padding: 18px;
-    background-color: rgba(255, 255, 255, 0.95);
-    border: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 2px solid #ff0000;
     border-radius: 50px;
     font-size: 16px;
     font-weight: 600;
-    color: #000000;
+    color: #ffffff;
     cursor: pointer;
     transition: all 0.3s ease;
     margin-bottom: 12px;
@@ -155,9 +155,9 @@ body.dark-mode .section-title {
 }
 
 body.dark-mode .action-btn {
-    background-color: rgba(0, 0, 0, 0.9);
-    color: #ffffff;
-    border: 2px solid #ff0000;
+    background-color: rgba(255, 255, 255, 0.95);
+    color: #000000;
+    border: none;
 }
 
 .action-btn::after {
@@ -174,6 +174,10 @@ body.dark-mode .action-btn {
 .action-btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+    background-color: #000;
+}
+
+body.dark-mode .action-btn:hover {
     background-color: #fff;
 }
 

@@ -29,6 +29,8 @@ themeToggle.addEventListener('click', () => {
 // Social Media Links
 const facebookBtn = document.getElementById('facebookBtn');
 const instagramBtn = document.getElementById('instagramBtn');
+const tiktokBtn = document.getElementById('tiktokBtn');
+const phoneBtn = document.getElementById('phoneBtn');
 
 facebookBtn.addEventListener('click', () => {
     window.open('https://www.facebook.com/profile.php?id=100081119342595', '_blank');
@@ -36,6 +38,14 @@ facebookBtn.addEventListener('click', () => {
 
 instagramBtn.addEventListener('click', () => {
     window.open('https://www.instagram.com/pizzaschoolegypt?fbclid=IwY2xjawPpzlZleHRuA2FlbQIxMABicmlkETFibjM5WjJDSTI1OVRjQXBIc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHs_IILhACUvwbA4jMZMIxISj8u43r_6Vsb4RgHZ2DBfjAfaLsr0n2efaybfI_aem_UFODaMXuTmtUBP9nd1V2kw', '_blank');
+});
+
+tiktokBtn.addEventListener('click', () => {
+    window.open('https://www.tiktok.com/@pizza.school.egyp8?fbclid=IwY2xjawPp0wpleHRuA2FlbQIxMABicmlkETFibjM5WjJDSTI1OVRjQXBIc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHiPQttkRwmCMVR_sX5ql9o7lAR2B3lYfrT84VMCxwUTCR9zlS9wxrS8scQ95_aem_yYfxWl6ITfkYOMLhFtqzHg', '_blank');
+});
+
+phoneBtn.addEventListener('click', () => {
+    window.location.href = 'tel:01021977425';
 });
 
 // Menu Modal Functionality
