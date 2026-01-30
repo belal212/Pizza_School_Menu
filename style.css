@@ -137,7 +137,7 @@ body.dark-mode .section-title {
     width: 100%;
     padding: 18px;
     background-color: rgba(0, 0, 0, 0.9);
-    border: 2px solid #ff0000;
+    border: 2px solid #000000;
     border-radius: 50px;
     font-size: 16px;
     font-weight: 600;
